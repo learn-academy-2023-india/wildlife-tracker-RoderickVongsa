@@ -1,0 +1,5 @@
+class Animal < ApplicationRecord
+    Rails.application.routes.draw do
+        resources :animals
+ end
+end
